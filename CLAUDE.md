@@ -16,7 +16,7 @@
 
 - **阶段**：0 环境准备（进行中）
 - **当前计划**：`docs/plan/00-环境准备.md`
-- **下一步**：安装 JDK 17 和 Maven，启动 Docker
+- **下一步**：安装 IDEA；写学习笔记 `docs/notes/00-开发环境.md`（JDK、Maven、Docker 已就绪）
 
 ## 文档地图
 
