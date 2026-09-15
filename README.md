@@ -1,4 +1,4 @@
-# tutu · 知识库底座
+# foundation · 知识库底座
 
 一个用于学习后端工程的项目：从零实现「带权限、可检索、可接入外部数据」的知识库底座。
 
@@ -8,7 +8,7 @@
 
 | 阶段 | 内容 | 学习重点 | 完成标志 | 状态 |
 |---|---|---|---|---|
-| 0 准备 | 开发环境、Git 仓库、CLAUDE.md | 工程环境 | `java -version`、`mvn -v`、`docker ps` 正常 | 进行中 |
+| 0 准备 | 开发环境、Git 仓库、协作文档 | 工程环境 | `java -version`、`mvn -v`、`docker ps` 正常 | [进行中](docs/plan/00-环境准备.md) |
 | 1 骨架 | 多模块 Spring Boot、统一返回、全局异常、健康检查 | 分层架构、Maven | `GET /health` 返回成功 | 未开始 |
 | 2 登录 | 用户表、注册登录、Token、登录拦截器 | 拦截器、ThreadLocal、密码摘要 | 不带 Token 访问返回 401 | 未开始 |
 | 3 功能权限 | 角色、权限码、`@RequiresPermission`、超管 | RBAC、声明式注解 | 普通用户调用管理接口被拒绝 | 未开始 |
@@ -21,15 +21,12 @@
 ## 每个功能的开发循环
 
 ```text
-讲概念 → 定方案（计划模式）→ 先写测试 → 实现 → 跑测试 → 代码审查 → 提交
+讲概念 → 定方案 → 先写测试 → 实现 → 跑测试 → 代码审查 → 提交
 ```
 
-## 阶段 0 环境清单
+## 文档
 
-- [ ] JDK 17
-- [ ] Maven 3.9+
-- [ ] Docker Desktop（启动并能运行 `docker ps`）
-- [ ] IntelliJ IDEA
-- [x] Git 仓库初始化
-- [x] CLAUDE.md 协作说明
-- [x] 推送到 GitHub
+- [阶段计划](docs/plan/)：每个阶段开始前写，只提前写一个阶段
+- [设计决策](docs/decisions/)：每个重要选择的背景、选项和理由
+- [学习笔记](docs/notes/)：概念、理解、踩坑和自测题
+- [CLAUDE.md](CLAUDE.md)：与 Claude Code 的协作规则和当前进度
