@@ -16,7 +16,7 @@
 
 - **阶段**：0 环境准备（进行中）
 - **当前计划**：`docs/plan/00-环境准备.md`
-- **下一步**：IDEA 中设置 Maven home 并打开 `~/tutu`；写学习笔记 `docs/notes/00-开发环境.md`（JDK、Maven、Docker、IDEA 已安装）
+- **下一步**：写学习笔记 `docs/notes/00-开发环境.md`，完成阶段 0 复盘（环境已全部就绪并验收）
 
 ## 文档地图
 
