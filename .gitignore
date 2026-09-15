@@ -9,6 +9,9 @@ target/
 # macOS
 .DS_Store
 
+# 参考项目相关的私有笔记（禁止提交）
+private/
+
 # 本地配置与密钥（禁止提交）
 .env
 .env.*
