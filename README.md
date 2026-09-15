@@ -32,4 +32,4 @@
 - [ ] IntelliJ IDEA
 - [x] Git 仓库初始化
 - [x] CLAUDE.md 协作说明
-- [ ] 推送到 GitHub
+- [x] 推送到 GitHub
